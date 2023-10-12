@@ -34,5 +34,24 @@ hi('1', '22', '333', '4444') | Hi 1, 22, 333 and 4444!
 
 #region bailam
 def hi(name):
-  return 'todo'
+  if name:
+    return(f'Hi {name}!')
+  else:
+    return('Hi!')
+
+  if name is '':
+    return "Hi!"
+    
+  else:
+    return('Hi!')
+  
+  if name == ():
+    return(f'Hi!')
+    
+def ho(name1):
+  
+
+
+
+
 #endregion bailam
